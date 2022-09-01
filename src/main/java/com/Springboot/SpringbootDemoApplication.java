@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SpringbootDemoApplication {
 
 	
-	@GetMapping("/")
+	@GetMapping("/user")
 	public String print() {return "Heloo";}
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootDemoApplication.class, args);
